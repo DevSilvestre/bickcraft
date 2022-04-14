@@ -6,6 +6,11 @@ body {
 }
 
 h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 ul,
 p {
   margin: 0px;
@@ -25,3 +30,8 @@ img {
   max-width: 100%;
   display: block;
 }
+
+img[src$=".jpg"]{
+  border-radius: 4px;
+}
+/*quando colocamos o border radius de forma geral p/ arredondar todas as imagens no tópico IMG ele acaba arredondando qualquer SVG que tenha no site, a forma para resolver isso é fazendo este seletor de atributo[src$=".xxx"]*/
