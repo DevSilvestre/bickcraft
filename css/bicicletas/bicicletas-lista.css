@@ -19,6 +19,10 @@
 }
 /*display flex faz com que os itens dentro da ul fique um ao lado do outro, gap marca a distância entre eles----orverflow ajuda a resolver caso o conteudo estoure, ele coloca a barra para fazer o scroll*/
 
+#bicicleta .bicicletas-lista ul {
+  padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-lista li{
 flex: 1;
  min-width: 280px;
